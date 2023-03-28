@@ -1,5 +1,8 @@
 import React from 'react'
 import workImg from '../assets/workImg.jpeg'
+import event3 from '../assets/event3.PNG'
+import certy from '../assets/certy.PNG'
+import port3 from '../assets/port3.PNG'
 import realestate from '../assets/realestate.jpg'
 
 
@@ -15,7 +18,27 @@ function Work() {
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-5'>
                 {/* //spacefic */}
-                <div  style={{backgroundImage:`url(${workImg}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                <div  style={{backgroundImage:`url(${event3}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* hover effect */}
+
+                    <div className='opacity-0 group-hover:opacity-100 '>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            React JS Application
+
+                        </span>
+                        <div className='pt-8 text-center '>
+                            <a href="">
+                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="">
+                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div  style={{backgroundImage:`url(${certy}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover effect */}
 
@@ -36,88 +59,11 @@ function Work() {
 
                 </div>
 
-                <div  style={{backgroundImage:`url(${realestate}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* hover effect */}
-
-                    <div className='opacity-0 group-hover:opacity-100 '>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-
-                        </span>
-                        <div className='pt-8 text-center '>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-                <div  style={{backgroundImage:`url(${realestate}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* hover effect */}
-
-                    <div className='opacity-0 group-hover:opacity-100 '>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-
-                        </span>
-                        <div className='pt-8 text-center '>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-                <div  style={{backgroundImage:`url(${workImg}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* hover effect */}
-
-                    <div className='opacity-0 group-hover:opacity-100 '>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-
-                        </span>
-                        <div className='pt-8 text-center '>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div  style={{backgroundImage:`url(${realestate}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* hover effect */}
-
-                    <div className='opacity-0 group-hover:opacity-100 '>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-
-                        </span>
-                        <div className='pt-8 text-center '>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-                <div  style={{backgroundImage:`url(${realestate}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                
+               
+                
+                
+                <div  style={{backgroundImage:`url(${port3}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover effect */}
 

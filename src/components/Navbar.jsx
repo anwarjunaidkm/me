@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Logo from "../assets/logo1.png"
+import ajlogo from "../assets/ajwhite.png"
 import {FaBars,FaTimes,FaLinkedin,FaGithub} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
@@ -12,7 +13,8 @@ function Navbar() {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="logo-image" style={{ width: "50px" }} />
+        <img src={ajlogo} alt="logo-image" style={{ width: "50px" }} />
+        {/* <h2 className='text-5xl Sacramento '>Aj</h2> */}
       </div>
 
       {/* ---menu---- */}

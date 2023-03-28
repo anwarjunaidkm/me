@@ -16,12 +16,14 @@ export const About = () => {
         <div className="max-w-[1000px]  w-full  grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>
-              Hi, i'm Anwar junaid nice to meet you..please take a look around.
+            As a self-taught software engineer, I have honed my problem-solving skills and gained experience in creating web apps with React JS 
+
             </p>
           </div>
           <div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit Aspernatur quia nesciunt hic, recusandae quaerat sit.
+
+                {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit Aspernatur quia nesciunt hic, recusandae quaerat sit. */}
             </p>
           </div>
         </div>
