@@ -1,4 +1,6 @@
 import React from "react";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 export const About = () => {
   return (
@@ -20,7 +22,9 @@ export const About = () => {
 
             </p>
           </div>
-          <div>
+          <div className="flex items-center">
+           <button className='text-white px-6 py-3 border-2 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600' > <a href="https://drive.google.com/file/d/12BalljkfUePGlqNTQ2Y9WfwyBwNbSpXP/view?usp=sharing">Resume</a>  <HiArrowNarrowRight className='ml-3' /></button>
+
             <p>
 
                 {/* Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elitLorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisicing elit Aspernatur quia nesciunt hic, recusandae quaerat sit. */}
