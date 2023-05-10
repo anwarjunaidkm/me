@@ -3,7 +3,8 @@ import workImg from '../assets/workImg.jpeg'
 import event3 from '../assets/event3.PNG'
 import certy from '../assets/certy.PNG'
 import port3 from '../assets/port3.PNG'
-import realestate from '../assets/realestate.jpg'
+import password from '../assets/password.png'
+import qoute from '../assets/qoute.png'
 
 
 function Work() {
@@ -28,7 +29,7 @@ function Work() {
 
                         </span>
                         <div className='pt-8 text-center '>
-                            <a href="">
+                            <a href="https://eventtyy.netlify.app/">
                                 <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="https://github.com/anwarjunaidkm/event-management.git">
@@ -77,6 +78,46 @@ function Work() {
                                 <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="https://github.com/anwarjunaidkm/me.git">
+                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div  style={{backgroundImage:`url(${qoute}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* hover effect */}
+
+                    <div className='opacity-0 group-hover:opacity-100 '>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                         Quote Generator
+
+                        </span>
+                        <div className='pt-8 text-center '>
+                            <a href="https://just-random-quote.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/anwarjunaidkm/Random-Quote-Generator.git">
+                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div  style={{backgroundImage:`url(${password}`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* hover effect */}
+
+                    <div className='opacity-0 group-hover:opacity-100 '>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Password Generator
+
+                        </span>
+                        <div className='pt-8 text-center '>
+                            <a href="https://password-random-gen.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/anwarjunaidkm/Password-random.git">
                                 <button className='text-center rounded-lg px-4 py-3  m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
