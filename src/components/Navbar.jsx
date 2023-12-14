@@ -1,15 +1,14 @@
-import React, { useState } from 'react'
-import Logo from "../assets/logo1.png"
-import ajlogo from "../assets/ajwhite.png"
-import {FaBars,FaTimes,FaLinkedin,FaGithub} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
-import { Link,  } from 'react-scroll'
-
+import React, { useState } from "react";
+import Logo from "../assets/logo1.png";
+import ajlogo from "../assets/ajwhite.png";
+import { FaBars, FaTimes, FaLinkedin, FaGithub } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { Link } from "react-scroll";
 
 function Navbar() {
-    const [nav,setNav]= useState(false)
-    const handleClick =()=>setNav(!nav)
+  const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
@@ -22,30 +21,30 @@ function Navbar() {
       <ul className="hidden md:flex">
         <li>
           {" "}
-          <Link to="home" smooth={true}  duration={500}>
+          <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li>
-        <Link to="about" smooth={true}  duration={500}>
-        About
+          <Link to="about" smooth={true} duration={500}>
+            About
           </Link>
-           </li>
+        </li>
         <li>
-        <Link to="skills" smooth={true}  duration={500}>
-        Skills
+          <Link to="skills" smooth={true} duration={500}>
+            Skills
           </Link>
-            </li>
+        </li>
         <li>
-        <Link to="work" smooth={true}  duration={500}>
-        Work
+          <Link to="work" smooth={true} duration={500}>
+            Work
           </Link>
-            </li>
+        </li>
         <li>
-        <Link to="contact" smooth={true}  duration={500}>
-        Contact
+          <Link to="contact" smooth={true} duration={500}>
+            Contact
           </Link>
-            </li>
+        </li>
       </ul>
 
       {/* ---hamburgerr---- */}
@@ -60,21 +59,35 @@ function Navbar() {
             : "absolute top-0 left-0 w-full h-screen  bg-[#0a192f] flex-col items-center flex justify-center  "
         }
       >
-        <li className="py-6 text-4xl"> <Link onClick={handleClick} to="home" smooth={true}  duration={500}>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
-          </Link></li>
-        <li className="py-6 text-4xl"> <Link onClick={handleClick} to="about" smooth={true}  duration={500}>
-        About
-          </Link></li>
-        <li className="py-6 text-4xl"> <Link onClick={handleClick} to="skills" smooth={true}  duration={500}>
-        Skills
-          </Link></li>
-        <li className="py-6 text-4xl"><Link onClick={handleClick} to="work" smooth={true}  duration={500}>
-        Work
-          </Link></li>
-        <li className="py-6 text-4xl"> <Link onClick={handleClick} to="contact" smooth={true}  duration={500}>
-        Contact
-          </Link></li>
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+          {" "}
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* ---social icons---- */}
@@ -100,7 +113,6 @@ function Navbar() {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:ajvly22@gmail.com"
-             
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -108,7 +120,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/12BalljkfUePGlqNTQ2Y9WfwyBwNbSpXP/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Fe53FC6nKzDKCFDkxCg9Z39oNQqatGHu/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
@@ -119,4 +131,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Navbar;
